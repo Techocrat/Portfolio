@@ -1,0 +1,92 @@
+.big {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 27%;
+    transform: translateY(-50%);
+    width: 200px;
+    max-height: 90%;
+  }
+  .project {
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 300px;
+    padding: 0px 20px;
+    padding-left: 100px;
+    .p1 .p2 .p3 {
+        width: 20vw;
+    }
+   
+    h2 {
+      color: #ffffff;
+    //   margin-top: 80%;
+      font-weight: 500;
+      font-size: 30px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+    }
+    h3 {
+      color: #8d8d8d;
+      margin-top: 5%;
+      font-weight: 500;
+      font-size: 15px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+    }
+    .wrapper {
+      display: flex;
+      .flat-button {
+        color: #ffffff;
+        font-size: 30px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        float: left;
+        border-radius: 4px;
+        background: 0 0;
+        text-transform: uppercase;
+        float: right;
+        text-align: left;
+        margin-right: 70px;
+      }
+    }
+  }
+  h1 {
+    color: #fff;
+    font-size: 56px;
+    line-height: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+
+    &:before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: -15px;
+      opacity: 0.6;
+    }
+
+    &:after {
+      content: '<h1/>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 45px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+  }
+}
