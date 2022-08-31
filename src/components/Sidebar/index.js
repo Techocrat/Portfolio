@@ -31,7 +31,7 @@ const Sidebar = () => {
         </NavLink>
         
         <a activeclassname="active" className="resume"
-            href="https://drive.google.com/file/d/1_PBLpvNT-lOMXitDwKqPE6oSdU9kHup_/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ayC_z-8BmpOMP3Baf34ZVHqmyCJeLLIc/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
