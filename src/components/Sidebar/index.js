@@ -31,7 +31,11 @@ const Sidebar = () => {
         </NavLink>
         
         <a activeclassname="active" className="resume"
+<<<<<<< HEAD
             href="https://drive.google.com/file/d/1ayC_z-8BmpOMP3Baf34ZVHqmyCJeLLIc/view?usp=sharing"
+=======
+            href="https://drive.google.com/file/d/1_R0qdvnSRnJJ2NVCEgGpvV-sApT7SBrH/view?usp=drivesdk"
+>>>>>>> d8f1b4c9bd8689f5f595ec0953745dca68c3f843
             target="_blank"
             rel="noreferrer"
           >
